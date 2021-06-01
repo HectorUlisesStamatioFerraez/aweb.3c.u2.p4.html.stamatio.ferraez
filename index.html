@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica HTML 4</title>
+    <style>
+        header{
+            text-align: center;
+        }
+        body{
+            background-color: #F5EFB3;       
+        }
+        .menu{
+            width: 20%; 
+            float: left;
+            background-color: #E6DBA5;
+        }
+        .menu ul{
+            list-style: none ;
+        }
+        .menu ul li{
+            padding: 5px;
+        }
+        .menu ul a:link,
+        .menu ul a:visited,
+        .menu ul :active{
+            text-decoration: none;
+            color:#271C2B;
+        }
+        .menu ul li:hover{
+            background-color: #D03C52;
+            font-weight: bold;
+        }
+        #content{
+            float: left; 
+            width: 80%;
+        }
+        #content article{
+            margin: 10px;
+        }
+        article h1{
+            color: #346A90;
+            border-bottom: #346A90 solid 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Practica HTML 4</h1>
+        </header>
+        <nav class="menu">
+            <ul>
+                <li>
+                   <a href="#">Inicio</a> 
+                </li>
+                <li>
+                    <a href="#">Tipo agua</a> 
+                </li>
+                <li>
+                    <a href="#">Tipo fuego</a> 
+                </li>
+                <li>
+                    <a href="#">Tipo plantas</a>
+                </li>
+            </ul>
+        </nav>
+        <section id="content"> 
+            <article>
+                <h1>Articulo 1</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet eos tempore dignissimos non laboriosam et natus odio quo consequuntur, explicabo earum qui sit? Voluptatibus modi officia quas corporis ad ipsa.</p> 
+            </article>
+            <article>
+                <h1>Articulo 2</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, aut adipisci dicta aliquam nostrum ipsam laudantium sapiente quae in numquam libero ex, omnis a dolorem tempora ea voluptatem. Repellat, maxime.</p>
+            </article>
+        </section>
+        <footer>Pie de Página</footer>
+    </main>    
+</body>
+
+</html>
